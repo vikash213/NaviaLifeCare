@@ -1,0 +1,26 @@
+
+{
+    "thursday":
+    
+    [
+     {"food": "Scramblled Eggs", "meal_time": "08:00", "image": "https://www.eatwell101.com/wp-content/uploads/2011/06/Scrambled-Eggs-Sweet-Simple.jpg"},
+     
+     {"food": "Burrito Bowls", "meal_time": "14:00", "image": "https://d2814mmsvlryp1.cloudfront.net/wp-content/uploads/2014/03/WGC-DIY-Chipotle-Burrito-Bowl-2-copy.jpg"},
+     
+     {"food": "Evening Snacks", "meal_time": "18:00", "image": "http://cookerystudio.com/wp-content/uploads/2017/04/Vitamin-C-2-1.jpg"},
+     
+     {"food": "North Indian thali", "meal_time": "22:00", "image": "https://mk0restaurantsbkd2xc.kinstacdn.com/wp-content/uploads/2015/08/Indian-Summer_more_Thali.jpg"}],
+    
+    "wednesday": [
+    {"food": "Sprouts", "meal_time": "07:00", "image": "https://en.wikipedia.org/wiki/Sprouting#/media/File:Organic_mixed_beans_shoots.jpg"},
+                  
+    {"food": "Bread lintils and Rice", "meal_time": "16:00", "image": "http://www.straightupfood.com/blog/wp-content/uploads/2013/12/LentilRiceLoafCloseup_2976.jpg"},
+                  
+    {"food": "Soup ,Rice and Chicken", "meal_time": "21:00", "image": "https://www.skinnytaste.com/wp-content/uploads/2013/09/Chicken-Shiitake-Mushroom-and-Wild-Rice-Soup-550x387.jpg"}],
+    
+    "monday": [{"food": "Warm honey and water", "meal_time": "07:00", "image": "http://healthyliving.natureloc.com/wp-content/uploads/2015/11/Warm-water-with-honey-and-lemon-juice.jpg"},
+               
+    {
+     "food": "Proper thali", "meal_time": "15:00", "image": "https://mk0restaurantsbkd2xc.kinstacdn.com/wp-content/uploads/2015/08/Indian-Summer_more_Thali.jpg"
+  }]
+}

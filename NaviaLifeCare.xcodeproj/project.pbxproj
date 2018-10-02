@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A20EECA10837CB7F01AE0A0 /* Pods_NaviaLifeCare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1B29E2B377607F873F1556 /* Pods_NaviaLifeCare.framework */; };
+		795B78362163626F00CABDB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795B78352163626F00CABDB3 /* AppDelegate.swift */; };
+		795B78382163626F00CABDB3 /* FoodsPlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795B78372163626F00CABDB3 /* FoodsPlanViewController.swift */; };
+		795B783B2163626F00CABDB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 795B78392163626F00CABDB3 /* Main.storyboard */; };
+		795B783D2163627300CABDB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 795B783C2163627300CABDB3 /* Assets.xcassets */; };
+		795B78402163627300CABDB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 795B783E2163627300CABDB3 /* LaunchScreen.storyboard */; };
+		795B78492163633E00CABDB3 /* FoodDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795B78472163633E00CABDB3 /* FoodDataTableViewCell.swift */; };
+		795B784A2163633E00CABDB3 /* FoodDataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 795B78482163633E00CABDB3 /* FoodDataTableViewCell.xib */; };
+		795B785F21636D6C00CABDB3 /* FoodDataWeekDietData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795B785A21636D6C00CABDB3 /* FoodDataWeekDietData.swift */; };
+		795B786121636D6C00CABDB3 /* FoodDataBaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795B785C21636D6C00CABDB3 /* FoodDataBaseClass.swift */; };
+		795B7865216371F400CABDB3 /* Food.json in Resources */ = {isa = PBXBuildFile; fileRef = 795B7864216371F400CABDB3 /* Food.json */; };
+		795B786D2163923400CABDB3 /* FoodData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795B786C2163923400CABDB3 /* FoodData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03DB5C835BA063561B425536 /* Pods-NaviaLifeCare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaviaLifeCare.release.xcconfig"; path = "Pods/Target Support Files/Pods-NaviaLifeCare/Pods-NaviaLifeCare.release.xcconfig"; sourceTree = "<group>"; };
+		795B78322163626F00CABDB3 /* NaviaLifeCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaviaLifeCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		795B78352163626F00CABDB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		795B78372163626F00CABDB3 /* FoodsPlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodsPlanViewController.swift; sourceTree = "<group>"; };
+		795B783A2163626F00CABDB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		795B783C2163627300CABDB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		795B783F2163627300CABDB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		795B78412163627300CABDB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		795B78472163633E00CABDB3 /* FoodDataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDataTableViewCell.swift; sourceTree = "<group>"; };
+		795B78482163633E00CABDB3 /* FoodDataTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodDataTableViewCell.xib; sourceTree = "<group>"; };
+		795B785A21636D6C00CABDB3 /* FoodDataWeekDietData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodDataWeekDietData.swift; sourceTree = "<group>"; };
+		795B785C21636D6C00CABDB3 /* FoodDataBaseClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodDataBaseClass.swift; sourceTree = "<group>"; };
+		795B7864216371F400CABDB3 /* Food.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Food.json; sourceTree = "<group>"; };
+		795B786C2163923400CABDB3 /* FoodData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodData.swift; sourceTree = "<group>"; };
+		BE1B29E2B377607F873F1556 /* Pods_NaviaLifeCare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaviaLifeCare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA621CD7A70567B807528FB /* Pods-NaviaLifeCare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaviaLifeCare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NaviaLifeCare/Pods-NaviaLifeCare.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		795B782F2163626F00CABDB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A20EECA10837CB7F01AE0A0 /* Pods_NaviaLifeCare.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0670CCBCE4A300E62AE59B5E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAA621CD7A70567B807528FB /* Pods-NaviaLifeCare.debug.xcconfig */,
+				03DB5C835BA063561B425536 /* Pods-NaviaLifeCare.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		55C502C65348334A1085C332 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE1B29E2B377607F873F1556 /* Pods_NaviaLifeCare.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		795B78292163626F00CABDB3 = {
+			isa = PBXGroup;
+			children = (
+				795B78342163626F00CABDB3 /* NaviaLifeCare */,
+				795B78332163626F00CABDB3 /* Products */,
+				0670CCBCE4A300E62AE59B5E /* Pods */,
+				55C502C65348334A1085C332 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		795B78332163626F00CABDB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				795B78322163626F00CABDB3 /* NaviaLifeCare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		795B78342163626F00CABDB3 /* NaviaLifeCare */ = {
+			isa = PBXGroup;
+			children = (
+				795B78702163AD6300CABDB3 /* AppDelegate */,
+				795B786F2163AD5700CABDB3 /* Controller */,
+				795B78722163AD8600CABDB3 /* Views */,
+				795B784B216364FD00CABDB3 /* Model */,
+				795B78712163AD7400CABDB3 /* Storyboard */,
+				795B786E2163AD4200CABDB3 /* Resources */,
+				795B7864216371F400CABDB3 /* Food.json */,
+			);
+			path = NaviaLifeCare;
+			sourceTree = "<group>";
+		};
+		795B784B216364FD00CABDB3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				795B785921636D5C00CABDB3 /* Food */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		795B785921636D5C00CABDB3 /* Food */ = {
+			isa = PBXGroup;
+			children = (
+				795B785C21636D6C00CABDB3 /* FoodDataBaseClass.swift */,
+				795B785A21636D6C00CABDB3 /* FoodDataWeekDietData.swift */,
+				795B786C2163923400CABDB3 /* FoodData.swift */,
+			);
+			path = Food;
+			sourceTree = "<group>";
+		};
+		795B786E2163AD4200CABDB3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				795B783C2163627300CABDB3 /* Assets.xcassets */,
+				795B78412163627300CABDB3 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		795B786F2163AD5700CABDB3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				795B78372163626F00CABDB3 /* FoodsPlanViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		795B78702163AD6300CABDB3 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				795B78352163626F00CABDB3 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		795B78712163AD7400CABDB3 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				795B78392163626F00CABDB3 /* Main.storyboard */,
+				795B783E2163627300CABDB3 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		795B78722163AD8600CABDB3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				795B78482163633E00CABDB3 /* FoodDataTableViewCell.xib */,
+				795B78472163633E00CABDB3 /* FoodDataTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		795B78312163626F00CABDB3 /* NaviaLifeCare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 795B78442163627300CABDB3 /* Build configuration list for PBXNativeTarget "NaviaLifeCare" */;
+			buildPhases = (
+				B9520BBA1C6D34B9D320994C /* [CP] Check Pods Manifest.lock */,
+				795B782E2163626F00CABDB3 /* Sources */,
+				795B782F2163626F00CABDB3 /* Frameworks */,
+				795B78302163626F00CABDB3 /* Resources */,
+				5F63C56D9520130F526E6373 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NaviaLifeCare;
+			productName = NaviaLifeCare;
+			productReference = 795B78322163626F00CABDB3 /* NaviaLifeCare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		795B782A2163626F00CABDB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = NaviaLifeCare;
+				TargetAttributes = {
+					795B78312163626F00CABDB3 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 795B782D2163626F00CABDB3 /* Build configuration list for PBXProject "NaviaLifeCare" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 795B78292163626F00CABDB3;
+			productRefGroup = 795B78332163626F00CABDB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				795B78312163626F00CABDB3 /* NaviaLifeCare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		795B78302163626F00CABDB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				795B78402163627300CABDB3 /* LaunchScreen.storyboard in Resources */,
+				795B783D2163627300CABDB3 /* Assets.xcassets in Resources */,
+				795B783B2163626F00CABDB3 /* Main.storyboard in Resources */,
+				795B784A2163633E00CABDB3 /* FoodDataTableViewCell.xib in Resources */,
+				795B7865216371F400CABDB3 /* Food.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F63C56D9520130F526E6373 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NaviaLifeCare/Pods-NaviaLifeCare-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NaviaLifeCare/Pods-NaviaLifeCare-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9520BBA1C6D34B9D320994C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NaviaLifeCare-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		795B782E2163626F00CABDB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				795B785F21636D6C00CABDB3 /* FoodDataWeekDietData.swift in Sources */,
+				795B786D2163923400CABDB3 /* FoodData.swift in Sources */,
+				795B78382163626F00CABDB3 /* FoodsPlanViewController.swift in Sources */,
+				795B78362163626F00CABDB3 /* AppDelegate.swift in Sources */,
+				795B786121636D6C00CABDB3 /* FoodDataBaseClass.swift in Sources */,
+				795B78492163633E00CABDB3 /* FoodDataTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		795B78392163626F00CABDB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				795B783A2163626F00CABDB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		795B783E2163627300CABDB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				795B783F2163627300CABDB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		795B78422163627300CABDB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		795B78432163627300CABDB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		795B78452163627300CABDB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAA621CD7A70567B807528FB /* Pods-NaviaLifeCare.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86ZY5L27MZ;
+				INFOPLIST_FILE = NaviaLifeCare/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NaviaLifeCares;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		795B78462163627300CABDB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03DB5C835BA063561B425536 /* Pods-NaviaLifeCare.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86ZY5L27MZ;
+				INFOPLIST_FILE = NaviaLifeCare/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NaviaLifeCares;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		795B782D2163626F00CABDB3 /* Build configuration list for PBXProject "NaviaLifeCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				795B78422163627300CABDB3 /* Debug */,
+				795B78432163627300CABDB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		795B78442163627300CABDB3 /* Build configuration list for PBXNativeTarget "NaviaLifeCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				795B78452163627300CABDB3 /* Debug */,
+				795B78462163627300CABDB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 795B782A2163626F00CABDB3 /* Project object */;
+}
